@@ -37,6 +37,7 @@
     flex-wrap: wrap;
     cursor: pointer;
     border-radius: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
       0 17px 17px 0 rgba(0, 0, 0, 0.15);
   }
@@ -151,6 +152,7 @@
     border-radius: 5px 0 0 5px;
     outline: none;
     font-size: 18px;
+    margin-top: 70px;
   }
   
   .searchTerm:focus {
@@ -169,6 +171,7 @@
     font-size: 20px;
     outline: none;
     font-size: 16px;
+    margin-top: 70px;
   }
   
   .searchButton:hover {

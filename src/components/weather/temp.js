@@ -33,12 +33,14 @@ const Temp = () => {
         setTempInfo(myNewWeatherInfo);
     } catch(error){
       alert("City not Found 😔😔😓");
-      console.log(error);
+      //console.log(error);
     }
    };
 
   useEffect(() => {
     getWeatherInfo();
+    document.title = "Weather App";
+    // eslint-disable-next-line
   },[]);
   return (
     <>
